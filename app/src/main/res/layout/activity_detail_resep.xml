@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailResepActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_dish"
+                android:layout_width="280dp"
+                android:layout_height="300dp"
+                android:src="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:id="@+id/tv_headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_headline"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:id="@+id/tv_subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_subhead"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_alat_dan_bahan"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_ingredient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alat_dan_bahan"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_step"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_step"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/step"
+                android:textSize="16sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RasaNusantara</string>
+    <string name="rekomendasi">Rekomendasi</string>
+    <string name="title_activity_home_navigation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_resep">Resep</string>
+    <string name="title_rekomendasi">Rekomendasi</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_submit">Login</string>
+    <string name="title_headline">headline</string>
+    <string name="title_subhead">subhead</string>
+    <string name="title_nama_perusahaan">Nama</string>
+    <string name="nama_perusahaan">Rasa Nusantara</string>
+    <string name="title_phone">Phone</string>
+    <string name="phone">+6285789672456</string>
+    <string name="title_alamat">Alamat</string>
+    <string name="alamat">Denpasar, Bali</string>
+    <string name="title_alat_dan_bahan">Alat dan Bahan:</string>
+    <string name="alat_dan_bahan">alat dan bahan</string>
+    <string name="step">step</string>
+    <string name="title_step">Langkah-langkah:</string>
+</resources>

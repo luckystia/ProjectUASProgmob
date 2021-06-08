@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingTop="8dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/imageList"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ayam_betutu" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_headline"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ayam Betutu Khas Bali" />
+
+        <TextView
+            android:id="@+id/text_subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Betutu merupakan jenis makanan tradisional daerah Bali yang bahan mentahnya berupa karkas utuh itik dan ayam." />
+    </LinearLayout>
+</LinearLayout>
